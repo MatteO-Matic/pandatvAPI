@@ -49,7 +49,7 @@ http://static.api.m.panda.tv/android_hd/cate.json
 [Sample output](/jsonsample/cate.json)
 
 ###Get channel info
-Note: This response breaks the json RFC 4627 format. (At "details")
+Note: Seems like this response breaks the json RFC 4627 format. (At "details")
 
 Field  |Description
 ----|----
@@ -58,3 +58,15 @@ roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" i
 http://www.panda.tv/api_room?roomid=3331
 ```
 [Sample output](/jsonsample/api_room.json)
+
+###Get channel info2
+Field  |Description
+----|----
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" in the json responses.
+method| (?)
+__plat| For what platform (android, android_hd)
+__version| "1.0.1.1303" from client
+```
+http://room.api.m.panda.tv/index.php?method=room.getinfo&roomid=3331&__plat=android_hd&&__version=1.0.1.1303
+```
+[Sample output](/jsonsample/getinfo_room.json)
