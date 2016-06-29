@@ -32,7 +32,7 @@ Returns a list with 10 channels from a category.
 
 Field  |Description
 ----|----
-cate   | Game category. You can use "ename" from [cate.json](#Retrive-game-categories)
+cate   | Game category. You can use "ename" from [cate.json](#retrive-game-categories)
 pageno   | Page number. eg. pageno=1 will return first 10 and pageno=2 will return the next batch of 10.
 pagenum  | (?)
 
