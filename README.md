@@ -49,6 +49,7 @@ http://static.api.m.panda.tv/android_hd/cate.json
 [Sample output](/jsonsample/cate.json)
 
 ###Get channel info
+Note: This response breaks the json RFC 4627 format. (At "description")
 
 Field  |Description
 ----|----
