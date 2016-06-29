@@ -1,0 +1,51 @@
+{
+   "errno":"0",
+   "errmsg":"",
+   "data":{
+      "info":{
+         "hostinfo":{
+            "rid":"32599690",
+            "name":"EternalEnvy",
+            "avatar":"http:\/\/i8.pdim.gs\/aa88aa04bf36a7d6c14e8a2e1d2d46e2.jpeg",
+            "bamboos":"359105"
+         },
+         "roominfo":{
+            "id":"3331",
+            "name":"Secret EternalEnvy",
+            "type":"1",
+            "classification":"DOTA2",
+            "cate":"dota2",
+            "bulletin":"EE Sama No Mercy!",
+            "details":"<table width=\"232\" style=\"border-collapse:\n collapse;\"><tr height=\"17\" style=\"height:12.75pt\"><td height=\"17\" align=\"left\" width=\"232\" style=\"height:12.75pt;\n  width:174pt\"><p><span style=\"font-size: 18px;\"><strong>EternalEnvy\u6b4c\u5355<\/strong><\/span><\/p><p><span style=\"font-size: 16px;\"><br><\/span><\/p><p><span style=\"font-size: 16px;color: rgb(217, 150, 148);\">*<\/span><span style=\"font-size: 16px;\">Searching for the Moon<\/span><\/p><p>Group: XL Project\u00a0<\/p><p><span style=\"font-size: 16px;\">Arrangement: estha<\/span><\/p><p><span style=\"font-size: 16px;\"><\/span><br><\/p><p><span style=\"font-size: 16px;color: rgb(217, 150, 148);\">*<\/span><span style=\"font-size: 16px;\">Fall in Dark<\/span><\/p><p><span style=\"font-size: 16px;\"><\/span><\/p><p>Shibayan Records<\/p><p>\u3084\u306a\u304e\u306a\u304e<\/p><p><br><\/p><p><span style=\"color: rgb(217, 150, 148);\">*<\/span>Fall in the Dark (Instrumental)<\/p><p>ShibayanRecords<\/p><p><br><\/p><p><span style=\"color: rgb(217, 150, 148);\">*<\/span>Myon Myon Myon<\/p><p>ShibayanRecords\u00a03L<\/p><p><br><\/p><p><span style=\"color: rgb(217, 150, 148);\">*<\/span>\u6df1\u7d05\u306e\u77b3<\/p><p>Shibayan Records<\/p><p><br><\/p><p><span style=\"color: rgb(217, 150, 148);\">*<\/span>\u30aa\u30ba\u30cd\u30a4\u30fb\u30cf\u30de\u30f3\u306f\u3082\u3046\u3044\u3089\u306a\u3044<\/p><p>Shibayan Records<\/p><p>\u3084\u306a\u304e\u306a\u304e<\/p><p><br><\/p><p><span style=\"font-size: 16px;color: rgb(217, 150, 148);\">*<\/span><span style=\"font-size: 16px;\">\u30a2\u30ca\u30bf\u30ac\u30e2\u30c8\u30e1\u30eb\u30e2\u30ce<\/span><\/p><p><span style=\"font-size: 16px;\"><\/span><\/p><p>Shibayan Records<\/p><p>Vocals: 3L<\/p><p><span style=\"font-size: 16px;\"><br><\/span><\/p><p><span style=\"font-size: 16px;color: rgb(217, 150, 148);\">*<\/span><span style=\"font-size: 16px;\">That Which Sinks in Crimson Tears is Her\u00a0<\/span><br><\/p><p><span style=\"font-size: 16px;\"><\/span><\/p><p>Shibayan Records<\/p><p>Vocals: 3L<\/p><p><br><\/p><p><span style=\"color: rgb(217, 150, 148);\">*<\/span>\u8e8d\u308b\u591c\u96c0<\/p><p>Shibayan Records<\/p><p><br><\/p><p>\u00a0<span style=\"color: rgb(217, 150, 148);\">*<\/span>\u30fb\u30fc\u30fb\u30fb\u3000\u30fc\u30fc\u30fc\u3000\u30fb\u30fb\u30fb\u30fc\u3000\u30fb (Love in morse code)<\/p><p>Shibayan Records\u00a0<span style=\"font-size: 16px;\">3L<\/span><\/p><p><span style=\"font-size: 16px;\"><br><\/span><\/p><p><span style=\"font-size: 16px;color: rgb(217, 150, 148);\">*<\/span><span style=\"font-size: 16px;\">Magenta<\/span><\/p><p><span style=\"font-size: 16px;\">\u30ca\u30ce\u00d7\u30c0\u30eb\u30d3\u30c3\u30b7\u30e5P<\/span><\/p><p><span style=\"font-size: 16px;\"><br><\/span><\/p><p><span style=\"font-size: 16px;color: rgb(217, 150, 148);\">*<\/span><span style=\"font-size: 16px;\">1 Hour (and a bit) of Chill Music<\/span><\/p><p><span style=\"font-size: 16px;\">Just a fukin mix guize<\/span><\/p><p><br><\/p><p><br><\/p><p><br><\/p><p><span style=\"font-size: 16px;\"><br><\/span><br><\/p><p><span style=\"font-size: 16px;\"><br><\/span><\/p><p><span style=\"font-size: 16px;\"><br><\/span><\/p><\/td><\/tr><\/table><p><br><\/p><p><br><\/p>",
+            "person_num":"663",
+            "fans":"18122",
+            "pictures":{
+               "img":"http:\/\/i7.pdim.gs\/45\/15dcf31d0c473fec656f6476527a6821\/w338\/h190.jpg"
+            },
+            "remind_content":"",
+            "remind_time":"0",
+            "remind_status":"0"
+         },
+         "videoinfo":{
+            "name":"dota",
+            "time":"31970",
+            "stream_addr":{
+               "HD":"0",
+               "OD":"0",
+               "SD":"1"
+            },
+            "room_key":"27cc182286bedf8eb865069ed518f71b",
+            "plflag":"2_3",
+            "status":"3",
+            "sign":"sign",
+            "ts":"ts",
+            "slaveflag":[
+               "4_7",
+               "10_20"
+            ],
+            "watermark":"1"
+         }
+      }
+   },
+   "authseq":""
+}
