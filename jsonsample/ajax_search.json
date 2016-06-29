@@ -1,1 +1,40 @@
-{"errno":0,"errmsg":"","data":{"items":[{"md5":"911d460035097f12","nickname":"EternalEnvy","roomid":"3331","hostid":"32599690","name":"Secret EternalEnvy","style":"","class":"dota2","classification":"DOTA2","person_num":"256","bamboos":"359105","fans":"18122","status":"3","content":"","pictures":{"img":"http:\/\/i7.pdim.gs\/45\/15dcf31d0c473fec656f6476527a6821\/w338\/h190.jpg","qrcode":"http:\/\/i6.pdim.gs\/f32bfdeee57ccc00f5d9506957de671f.png"},"updatetime":"2016-06-30 07:30:02","reliable":"1","sex":"0","province":"0","url_footprint":"CAAQABgAMAFCAA==","se":{"prefix":1,"docId":502846,"sort0":18122},"display_type":"1"}],"total":"1"},"authseq":""}
+{
+   "errno":0,
+   "errmsg":"",
+   "data":{
+      "items":[
+         {
+            "md5":"911d460035097f12",
+            "nickname":"EternalEnvy",
+            "roomid":"3331",
+            "hostid":"32599690",
+            "name":"Secret EternalEnvy",
+            "style":"",
+            "class":"dota2",
+            "classification":"DOTA2",
+            "person_num":"256",
+            "bamboos":"359105",
+            "fans":"18122",
+            "status":"3",
+            "content":"",
+            "pictures":{
+               "img":"http:\/\/i7.pdim.gs\/45\/15dcf31d0c473fec656f6476527a6821\/w338\/h190.jpg",
+               "qrcode":"http:\/\/i6.pdim.gs\/f32bfdeee57ccc00f5d9506957de671f.png"
+            },
+            "updatetime":"2016-06-30 07:30:02",
+            "reliable":"1",
+            "sex":"0",
+            "province":"0",
+            "url_footprint":"CAAQABgAMAFCAA==",
+            "se":{
+               "prefix":1,
+               "docId":488366,
+               "sort0":18122
+            },
+            "display_type":"1"
+         }
+      ],
+      "total":"1"
+   },
+   "authseq":""
+}
