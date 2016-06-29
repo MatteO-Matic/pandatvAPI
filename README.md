@@ -48,3 +48,12 @@ http://static.api.m.panda.tv/android_hd/cate.json
 ```
 [Sample output](/jsonsample/cate.json)
 
+###Get channel info
+
+Field  |Description
+----|----
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" in the json responses.
+```
+http://www.panda.tv/api_room?roomid=3331
+```
+[Sample output](/jsonsample/api_room.json)
