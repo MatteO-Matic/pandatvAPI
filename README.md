@@ -1,6 +1,6 @@
 #PandatvAPI
 
-##Json android_hd requests
+##Requests
 
 ###Retrive frontpage'ish channels
 Returns two lists containing channels data.
@@ -34,13 +34,26 @@ Field  |Description
 ----|----
 cate   | Game category. You can use "ename" from [cate.json](#retrive-game-categories)
 pageno   | Page number. eg. pageno=1 will return first 10 and pageno=2 will return the next batch of 10.
-pagenum  | (?)
-
 
 ```
-http://static.api.m.panda.tv/android_hd/catelist_.json?cate=yzdr&pageno=1&pagenum=20
+http://static.api.m.panda.tv/android_hd/catelist_.json?cate=yzdr&pageno=1
 ```
 [Sample output](/jsonsample/catelist_.json)
+
+Another way:
+
+Field  |Description
+----|----
+cate   | Game category. You can use "ename" from [cate.json](#retrive-game-categories)
+pageno   | Page number. eg. pageno=1 will return first 10 and pageno=2 will return the next batch of 10.
+pagenum  | Number of channels to retrive
+__plat| (android, android_hd)
+__version| "1.0.1.1303" from client
+
+```
+http://api.m.panda.tv/ajax_get_live_list_by_cate?cate=dota2&pageno=1&pagenum=4&__version=1.0.1.1303&__plat=android_hd
+```
+[Sample output](/jsonsample/ajax_get_live_list_by_cate.json)
 
 ###Retrive game categories
 ```
