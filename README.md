@@ -50,7 +50,7 @@ http://static.api.m.panda.tv/android_hd/cate.json
 
 Another way:
 
-Same as cate.json + one extra category "cartoon". Might return different things depending on what you feed version and platform.
+Same as cate.json + one extra category "cartoon". Might return different things depending on version and platform.
 
 Field  |Description
 ----|----
