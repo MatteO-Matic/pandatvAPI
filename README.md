@@ -48,12 +48,25 @@ http://static.api.m.panda.tv/android_hd/cate.json
 ```
 [Sample output](/jsonsample/cate.json)
 
+Another way:
+
+Same as cate.json + one extra category "cartoon". Might return different things depending on what you feed version and platform.
+
+Field  |Description
+----|----
+__plat| (android, android_hd)
+__version| "1.0.1.1303" from client
+```
+http://api.m.panda.tv/ajax_get_all_subcate
+```
+[Sample output](/jsonsample/ajax_get_all_subcate.json)
+
 ###Get channel info
 Note: Seems like this response breaks the json RFC 4627 format. (At "details")
 
 Field  |Description
 ----|----
-roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" in the json responses.
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
 ```
 http://www.panda.tv/api_room?roomid=3331
 ```
@@ -62,11 +75,20 @@ http://www.panda.tv/api_room?roomid=3331
 ###Get channel info2
 Field  |Description
 ----|----
-roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" in the json responses.
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
 method| (?)
-__plat| For what platform (android, android_hd)
+__plat| (android, android_hd)
 __version| "1.0.1.1303" from client
 ```
 http://room.api.m.panda.tv/index.php?method=room.getinfo&roomid=3331&__plat=android_hd&&__version=1.0.1.1303
 ```
 [Sample output](/jsonsample/getinfo_room.json)
+
+###Search on roomid
+Field  |Description
+----|----
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
+```
+http://api.m.panda.tv/ajax_search?roomid=3331
+```
+[Sample output](/jsonsample/ajax_search.json)
