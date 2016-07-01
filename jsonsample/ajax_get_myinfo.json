@@ -1,0 +1,18 @@
+{
+   "errno":0,
+   "errmsg":"",
+   "data":{
+      "rid":36103134,
+      "nickName":"WastWaster",
+      "avatar":"http:\/\/i3.pdim.gs\/t01d6c1f188a949e62f.jpg",
+      "bamboos":"0",
+      "weight":"0",
+      "exp":"0",
+      "isHost":false,
+      "roomId":"",
+      "hostStatus":"1",
+      "identity":"30",
+      "sp_identity":"0",
+      "token":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+}
