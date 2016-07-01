@@ -105,3 +105,17 @@ roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" o
 http://api.m.panda.tv/ajax_search?roomid=3331
 ```
 [Sample output](/jsonsample/ajax_search.json)
+
+###Get account info
+
+Field  |Description
+----|----
+option | Get option value (bamboos, .. (?) )
+2Cishost|Check if you are host over given roomid
+2Cisbanned| -
+2Cexp| -
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
+```
+http://www.panda.tv/ajax_get_myinfo?option=bamboos%2Cishost%2Cisbanned%2Cexp&roomid=3331
+```
+[Sample output](/jsonsample/ajax_get_myinfo.json)
