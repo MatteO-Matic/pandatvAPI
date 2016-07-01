@@ -47,7 +47,7 @@ Field  |Description
 cate   | Game category. You can use "ename" from [cate.json](#retrive-game-categories)
 pageno   | Page number. eg. pageno=1 will return first 10 and pageno=2 will return the next batch of 10.
 pagenum  | Number of channels to retrive
-__plat| (android, android_hd)
+__plat| (android, android_hd, pc_web)
 __version| "1.0.1.1303" from client
 
 ```
@@ -67,7 +67,7 @@ Same as cate.json + one extra category "cartoon". Might return different things 
 
 Field  |Description
 ----|----
-__plat| (android, android_hd)
+__plat| (android, android_hd, pc_web)
 __version| "1.0.1.1303" from client
 ```
 http://api.m.panda.tv/ajax_get_all_subcate
@@ -90,7 +90,7 @@ Field  |Description
 ----|----
 roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
 method| (?)
-__plat| (android, android_hd)
+__plat| (android, android_hd, pc_web)
 __version| "1.0.1.1303" from client
 ```
 http://room.api.m.panda.tv/index.php?method=room.getinfo&roomid=3331&__plat=android_hd&&__version=1.0.1.1303
