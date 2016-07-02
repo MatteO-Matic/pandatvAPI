@@ -1,3 +1,20 @@
+Table of Contents
+=================
+
+  * [PandatvAPI](#pandatvapi)
+    * [Requests](#requests)
+      * [Retrive frontpage'ish channels](#retrive-frontpageish-channels)
+      * [Retrive channels from all categories](#retrive-channels-from-all-categories)
+      * [Retrive channels from a "game" category](#retrive-channels-from-a-game-category)
+      * [Retrive game categories](#retrive-game-categories)
+      * [Get channel info](#get-channel-info)
+      * [Get channel info2](#get-channel-info2)
+      * [Search on roomid](#search-on-roomid)
+      * [Get account info](#get-account-info)
+      * [Get stream](#get-stream)
+        * [http](#http)
+        * [hls](#hls)
+
 #PandatvAPI
 
 ##Requests
