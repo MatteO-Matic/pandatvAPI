@@ -119,3 +119,14 @@ roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" o
 http://www.panda.tv/ajax_get_myinfo?option=bamboos%2Cishost%2Cisbanned%2Cexp&roomid=3331
 ```
 [Sample output](/jsonsample/ajax_get_myinfo.json)
+
+###Get stream
+####http
+Field  |Description
+----|----
+plflag|
+room_key|
+
+http://pl[plflag].live.panda.tv/live_panda/[room_key].flv
+
+####hls
