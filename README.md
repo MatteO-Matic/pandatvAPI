@@ -102,7 +102,8 @@ http://www.panda.tv/api_room?roomid=3331
 ```
 [Sample output](/jsonsample/api_room.json)
 
-###Get channel info2
+Another way:
+
 Field  |Description
 ----|----
 roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
@@ -138,12 +139,18 @@ http://www.panda.tv/ajax_get_myinfo?option=bamboos%2Cishost%2Cisbanned%2Cexp&roo
 [Sample output](/jsonsample/ajax_get_myinfo.json)
 
 ###Get stream
-####http
+####http/hls
 Field  |Description
 ----|----
-plflag|
-room_key|
+plflag| Can be obtained through [the channel info](#get-channel-info)(if for example "2_3" then you are interested in the 3 for stream)
+room_key| Can be obtained through [the channel info](#get-channel-info)
 
+```
+http
 http://pl[plflag].live.panda.tv/live_panda/[room_key].flv
+http://pl3.live.panda.tv/live_panda/3331.flv
 
-####hls
+hls
+http://pl-hls[plflag].live.panda.tv/live_panda/[room_key].m3u8
+http://pl-hls11.live.panda.tv/live_panda/81b481611b4bce2518657eceb52612bc.m3u8
+```
