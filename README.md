@@ -37,7 +37,6 @@ Returns a list with 10 channels
 Field  |Description
 ----|----
 pageno   | Page number. eg. pageno=1 will return first 10 and pageno=2 will return the next batch of 10.
-pagenum  | (?)
 
 ```
 http://static.api.m.panda.tv/android_hd/alllist_.json?pageno=1
@@ -139,18 +138,23 @@ http://www.panda.tv/ajax_get_myinfo?option=bamboos%2Cishost%2Cisbanned%2Cexp&roo
 [Sample output](/jsonsample/ajax_get_myinfo.json)
 
 ###Get stream
-####http/hls
+####http
 Field  |Description
 ----|----
 plflag| Can be obtained through [the channel info](#get-channel-info)(if for example "2_3" then you are interested in the 3 for stream)
 room_key| Can be obtained through [the channel info](#get-channel-info)
 
 ```
-http
 http://pl[plflag].live.panda.tv/live_panda/[room_key].flv
 http://pl3.live.panda.tv/live_panda/3331.flv
+```
 
-hls
+####hls
+Field  |Description
+----|----
+plflag| Can be obtained through [the channel info](#get-channel-info)(if for example "2_3" then you are interested in the 3 for stream)
+room_key| Can be obtained through [the channel info](#get-channel-info)
+```
 http://pl-hls[plflag].live.panda.tv/live_panda/[room_key].m3u8
 http://pl-hls11.live.panda.tv/live_panda/81b481611b4bce2518657eceb52612bc.m3u8
 ```
