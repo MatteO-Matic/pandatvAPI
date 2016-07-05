@@ -14,7 +14,7 @@ Table of Contents
       * [Get stream](#get-stream)
 
 
-#PandatvAPI
+#Unofficial PandatvAPI
 
 ##Requests
 
