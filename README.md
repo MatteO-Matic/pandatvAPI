@@ -12,8 +12,6 @@ Table of Contents
       * [Search on roomid](#search-on-roomid)
       * [Get account info](#get-account-info)
       * [Get stream](#get-stream)
-        * [http](#http)
-        * [hls](#hls)
 
 
 #PandatvAPI
@@ -139,7 +137,6 @@ http://www.panda.tv/ajax_get_myinfo?option=bamboos%2Cishost%2Cisbanned%2Cexp&roo
 [Sample output](/jsonsample/ajax_get_myinfo.json)
 
 ###Get stream
-####http
 Field  |Description
 ----|----
 plflag| Can be obtained through [the channel info](#get-channel-info)(if for example "2_3" then you are interested in the 3 for stream)
@@ -150,7 +147,8 @@ http://pl[plflag].live.panda.tv/live_panda/[room_key].flv
 http://pl3.live.panda.tv/live_panda/3331.flv
 ```
 
-####hls
+Another way:
+
 Field  |Description
 ----|----
 plflag| Can be obtained through [the channel info](#get-channel-info)(if for example "2_3" then you are interested in the 3 for stream)
