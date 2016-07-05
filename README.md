@@ -147,7 +147,7 @@ http://pl[plflag].live.panda.tv/live_panda/[room_key].flv
 http://pl3.live.panda.tv/live_panda/3331.flv
 ```
 
-Another way:
+m3u8 files to ts streams
 
 Field  |Description
 ----|----
