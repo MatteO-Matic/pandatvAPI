@@ -18,6 +18,13 @@ Table of Contents
 
 ##Requests
 
+
+###Get splash-screen info
+```
+http://static.api.m.panda.tv/index.php?method=clientconf.firstscreen&__version=1.0.1.1303&__plat=android&__channel=guanwang
+```
+[Sample output](/jsonsample/firstscreen.json)
+
 ###Retrive frontpage'ish channels
 Returns two lists containing channels data.
 
