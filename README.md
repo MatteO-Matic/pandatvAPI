@@ -2,8 +2,9 @@ Table of Contents
 =================
 
   * [Table of Contents](#table-of-contents)
-  * [PandatvAPI](#pandatvapi)
+  * [Unofficial PandatvAPI](#unofficial-pandatvapi)
     * [Requests](#requests)
+      * [Get splash-screen info](#get-splash-screen-info)
       * [Retrive frontpage'ish channels](#retrive-frontpageish-channels)
       * [Retrive channels from all categories](#retrive-channels-from-all-categories)
       * [Retrive channels from a category](#retrive-channels-from-a-category)
@@ -12,6 +13,8 @@ Table of Contents
       * [Search on roomid](#search-on-roomid)
       * [Get account info](#get-account-info)
       * [Get stream](#get-stream)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 #Unofficial PandatvAPI
