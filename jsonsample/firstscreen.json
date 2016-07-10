@@ -1,0 +1,14 @@
+{
+    "errno": "0",
+    "errmsg": "",
+    "data": {
+        "title": "Hello女神",
+        "imgurl": "http://i6.pdim.gs/45cd40cfaeda4febb2b01bdf8abaeb67.jpg",
+        "linkurl": "http://stars.panda.tv/m/index",
+        "actiontype": "3",
+        "delaytime": "3000",
+        "starttime": "1465142400",
+        "endtime": "1468684800"
+    },
+    "authseq": ""
+}
