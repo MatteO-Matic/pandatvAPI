@@ -1,9 +1,6 @@
 Table of Contents
 =================
 
-Table of Contents
-=================
-
   * [Unofficial PandatvAPI](#unofficial-pandatvapi)
     * [Requests](#requests)
       * [Get splash-screen info](#get-splash-screen-info)
