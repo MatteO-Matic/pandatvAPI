@@ -1,0 +1,124 @@
+{
+
+    "errno": 0,
+    "data": {
+        "total": 4,
+        "items": [
+            {
+                "price": "10000",
+                "updatetime": "2016-05-19 03:14:05",
+                "id": "56aefbeb84134616e02501ff",
+                "status": "1",
+                "createtime": "2016-02-01 14:32:11",
+                "desc": "不怕跟不上营养了",
+                "pic": {
+                    "android": {
+                        "effect": "http://i1.pdim.gs/t01bc7a7870e75a7178.png",
+                        "icon": "http://i3.pdim.gs/t016d8a494d4086a716.png",
+                        "ext": "http://i1.pdim.gs/t0168b7df533a07a240.png"
+                    },
+                    "pc": {
+                        "tips": "http://i4.pdim.gs/t01ef1c66f76d81fb97.gif",
+                        "chat": "http://i4.pdim.gs/t0151cd009340a77381.png",
+                        "effect": "http://i3.pdim.gs/t01eba2e19cea94c70b.gif",
+                        "default": "http://i4.pdim.gs/t01b6efcfda88600394.png"
+                    }
+                },
+                "bamboo": "30000",
+                "exp": "220000",
+                "effective": "180",
+                "name": "佛跳墙",
+                "combo": ""
+            },
+            {
+                "price": "1000",
+                "updatetime": "2016-05-19 03:14:00",
+                "id": "569857b5b868a87b4f0f9f9e",
+                "status": "1",
+                "createtime": "2016-01-15 10:21:41",
+                "desc": "究极进化的小龙虾",
+                "pic": {
+                    "ios": {
+                        "default": "http://i0.pdim.gs/t012996086b385ef25d.png"
+                    },
+                    "pc": {
+                        "tips": "http://i2.pdim.gs/t0179c8e80cb2b8b3f5.gif",
+                        "chat": "http://i4.pdim.gs/t01c4fd7e287ad3d63e.png",
+                        "effect": "http://i2.pdim.gs/t013feee04428a743a2.gif",
+                        "default": "http://i3.pdim.gs/t0123e6fd93fae1c67e.png"
+                    },
+                    "android": {
+                        "effect": "http://i1.pdim.gs/t01573d08c22609b90b.png",
+                        "icon": "http://i2.pdim.gs/t012996086b385ef25d.png",
+                        "ext": "http://i2.pdim.gs/t01a67ec4e575a3a3f8.png"
+                    }
+                },
+                "bamboo": "3000",
+                "exp": "21000",
+                "effective": "60",
+                "name": "龙虾",
+                "combo": ""
+            },
+            {
+                "price": "50",
+                "updatetime": "2016-05-19 03:13:54",
+                "id": "56985731b868a87b4f0f9f9d",
+                "status": "1",
+                "createtime": "2016-01-15 10:19:29",
+                "desc": "熟透了味道还不错",
+                "pic": {
+                    "ios": {
+                        "default": "http://i2.pdim.gs/t017df795fc00b2a21c.png"
+                    },
+                    "pc": {
+                        "tips": "http://i4.pdim.gs/t01d71fcc669ceb73ac.gif",
+                        "chat": "http://i1.pdim.gs/t01ae7b369bc1faeea4.png",
+                        "effect": "http://i3.pdim.gs/t01b6a4fc1f0d58a88d.gif",
+                        "default": "http://i1.pdim.gs/t01d24f912fac1142fe.png"
+                    },
+                    "android": {
+                        "effect": "http://i1.pdim.gs/t01fa62ba3eddfc44b2.png",
+                        "icon": "http://i4.pdim.gs/t017df795fc00b2a21c.png",
+                        "ext": "http://i2.pdim.gs/t0134368f82401710e0.png"
+                    }
+                },
+                "bamboo": "150",
+                "exp": "1000",
+                "effective": "10",
+                "name": "烤鱼",
+                "combo": ""
+            },
+            {
+                "price": "2",
+                "updatetime": "2016-05-19 03:13:10",
+                "id": "569856ffb868a87b4f0f9f9c",
+                "status": "1",
+                "createtime": "2016-01-15 10:18:39",
+                "desc": "主播饿了,喂食饭团",
+                "pic": {
+                    "ios": {
+                        "default": "http://i3.pdim.gs/t01c98f61a4eaf5dee0.png"
+                    },
+                    "pc": {
+                        "tips": "http://i2.pdim.gs/t0160245b63a9c31012.gif",
+                        "chat": "http://i4.pdim.gs/t011fe5406ebdb075e3.png",
+                        "effect": "http://i0.pdim.gs/t01890a789925449da3.gif",
+                        "default": "http://i3.pdim.gs/t012f8ff901d7ef25cc.png"
+                    },
+                    "android": {
+                        "effect": "http://i0.pdim.gs/t0162a5d2cbc75e3e1a.png",
+                        "icon": "http://i0.pdim.gs/t01c98f61a4eaf5dee0.png",
+                        "ext": "http://i4.pdim.gs/t01eedb76967cf5c34c.png"
+                    }
+                },
+                "bamboo": "6",
+                "exp": "40",
+                "effective": "3",
+                "name": "饭团",
+                "combo": ""
+            }
+        ]
+    },
+    "errmsg": ""
+
+}

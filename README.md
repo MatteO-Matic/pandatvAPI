@@ -1,7 +1,9 @@
 Table of Contents
 =================
 
-  * [Table of Contents](#table-of-contents)
+Table of Contents
+=================
+
   * [Unofficial PandatvAPI](#unofficial-pandatvapi)
     * [Requests](#requests)
       * [Get splash-screen info](#get-splash-screen-info)
@@ -12,6 +14,7 @@ Table of Contents
       * [Get channel info](#get-channel-info)
       * [Search on roomid](#search-on-roomid)
       * [Get account info](#get-account-info)
+      * [Get "giftable" gifts](#get-giftable-gifts)
       * [Get stream](#get-stream)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
@@ -145,6 +148,17 @@ roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" o
 http://www.panda.tv/ajax_get_myinfo?option=bamboos%2Cishost%2Cisbanned%2Cexp&roomid=3331
 ```
 [Sample output](/jsonsample/ajax_get_myinfo.json)
+
+###Get "giftable" gifts
+Returns information about purchasable gifts, like prices, types, bamboo etc..
+Field  |Description
+----|----
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
+
+```
+http://mall.panda.tv/ajax_gift_gifts_get?roomid=306279
+```
+[Sample output](/jsonsample/ajax_gift_gifts_get.json)
 
 ###Get stream
 Field  |Description
