@@ -1,9 +1,6 @@
 Table of Contents
 =================
 
-Table of Contents
-=================
-
   * [Unofficial PandatvAPI](#unofficial-pandatvapi)
     * [Requests](#requests)
       * [Get splash-screen info](#get-splash-screen-info)
@@ -173,6 +170,7 @@ http://www.panda.tv/ajax_get_myinfo?option=bamboos%2Cishost%2Cisbanned%2Cexp&roo
 
 ###Get "giftable" gifts
 Returns information about purchasable gifts, like prices, types, bamboo etc..
+
 Field  |Description
 ----|----
 roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
