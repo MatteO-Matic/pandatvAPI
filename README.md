@@ -9,7 +9,7 @@ Table of Contents
       * [Retrive channels from a category](#retrive-channels-from-a-category)
       * [Retrive game categories](#retrive-game-categories)
       * [Get channel info](#get-channel-info)
-      * [Get channel follow info](#Get-channel-follow-info)
+      * [Get channel follow info](#get-channel-follow-info)
       * [Search on roomid](#search-on-roomid)
       * [Get account info](#get-account-info)
       * [Get "giftable" gifts](#get-giftable-gifts)
@@ -111,8 +111,10 @@ http://www.panda.tv/api_room?roomid=3331
 ```
 [Sample output](/jsonsample/api_room.json)
 
-v2
+v2:
+
 Don't include the fans and follow information anymore, see [Get follow info](#Get-channel-follow-info)
+
 Field  |Description
 ----|----
 roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
