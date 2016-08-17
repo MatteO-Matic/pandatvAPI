@@ -12,6 +12,7 @@ Table of Contents
       * [Retrive channels from a category](#retrive-channels-from-a-category)
       * [Retrive game categories](#retrive-game-categories)
       * [Get channel info](#get-channel-info)
+      * [Get channel follow info](#Get-channel-follow-info)
       * [Search on roomid](#search-on-roomid)
       * [Get account info](#get-account-info)
       * [Get "giftable" gifts](#get-giftable-gifts)
@@ -113,6 +114,16 @@ http://www.panda.tv/api_room?roomid=3331
 ```
 [Sample output](/jsonsample/api_room.json)
 
+v2
+Don't include the fans and follow information anymore, see [Get follow info](#Get-channel-follow-info)
+Field  |Description
+----|----
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
+```
+http://www.panda.tv/api_room_v2?roomid=356213
+```
+[Sample output](/jsonsample/api_room_v2.json)
+
 Another way:
 
 Field  |Description
@@ -125,6 +136,17 @@ __version| "1.0.1.1303" from client
 http://room.api.m.panda.tv/index.php?method=room.getinfo&roomid=3331&__plat=android_hd&&__version=1.0.1.1303
 ```
 [Sample output](/jsonsample/getinfo_room.json)
+
+###Get channel follow info
+Returns 0,1 if you are following the channel and the amount of fans.
+
+Field  |Description
+----|----
+roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
+```
+http://www.panda.tv/room_followinfo?roomid=356213
+```
+[Sample output](/jsonsample/room_followinfo.json)
 
 ###Search on roomid
 Field  |Description

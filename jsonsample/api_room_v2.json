@@ -1,0 +1,64 @@
+{
+   "errno":0,
+   "errmsg":"",
+   "data":{
+      "hostinfo":{
+         "rid":28890428,
+         "name":"\u5c0f\u98deLcr ",
+         "avatar":"http:\/\/i7.pdim.gs\/5faac424f92c2056f2c954ff4a4761dc.jpeg",
+         "bamboos":"8008391"
+      },
+      "roominfo":{
+         "id":"356213",
+         "name":"Fish\u5c0f\u98de \u5e72CDEC",
+         "type":"1",
+         "bulletin":"\u4e00\u4e2a\u4f5b\u8df3\u5899 \u6216\u80055\u4e2a\u9f99\u867e \u7ed9\u623f\u7ba1 \nqq\u7c89\u4e1d\u7fa4516612803 \u559c\u6b22\u4e3b\u64ad\u7684\u670b\u53cb\u53ef\u4ee5\u52a0\u4e0b\u3002\n\u65b0\u6d6a\u5fae\u535a \u5c0f\u98deLcr",
+         "details":"
+
+\u4e3b\u64ad\u5c71\u4e1c\u6f4d\u574a\u4eba 18\u5c81 \u5e73\u65f6\u4e0b\u5348\u6216\u8005\u665a\u4e0a\u64ad\u3002<\/p>
+
+\u65b0\u6d6a\u5fae\u535a \u5c0f\u98deLcr \u9ebb\u70e6\u5404\u4f4d\u5927\u54e5\u5173\u6ce8\u4e0b\uff01<\/p>",
+         "person_num":"19",
+         "classification":"DOTA2",
+         "banned_reason":"\u5ba3\u4f20\u6d89\u53ca\u91d1\u94b1\u76f8\u5173\u7684\u5e7f\u544a\u4fe1\u606f",
+         "status":"2",
+         "unlock_time":"1462341358",
+         "watermark_switch":"2",
+         "watermark_loc":"1",
+         "cover_status":"2",
+         "cover_timestamp":1471458731,
+         "cover_reason":"",
+         "mild_remind_status":"2",
+         "mild_remind_timestamp":1471458731,
+         "mild_remind_reason":"",
+         "account_status":"2",
+         "pictures":{
+            "img":"http:\/\/i6.pdim.gs\/45\/3471087cbf5e101d124d6c0d987f4c64\/w338\/h190.jpg",
+            "qrcode":"http:\/\/i5.pdim.gs\/dde42ff6723decab6871bbca9c45bda8.png"
+         },
+         "start_time":"1471343517",
+         "end_time":"1471366793",
+         "cate":"dota2"
+      },
+      "videoinfo":{
+         "stream_addr":{
+            "HD":"0",
+            "OD":"0",
+            "SD":"1"
+         },
+         "room_key":"a41a5f81eff94ded94e9fc511eac74b2",
+         "plflag":"4_8",
+         "status":"3",
+         "display_type":"1"
+      },
+      "userinfo":{
+         "rid":-21278969,
+         "sp_identity":"0"
+      },
+      "chatconfig":{
+         "min_level":1,
+         "all_forbid":0,
+         "speak_interval":"2"
+      }
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "errno":0,
+   "errmsg":"",
+   "data":{
+      "fans":43438,
+      "is_followed":"0"
+   }
+}
