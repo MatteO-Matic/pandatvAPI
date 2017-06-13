@@ -18,18 +18,18 @@ Table of Contents
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
-#Unofficial PandatvAPI
+# Unofficial PandatvAPI
 
-##Requests
+## Requests
 
 
-###Get splash-screen info
+### Get splash-screen info
 ```
 http://static.api.m.panda.tv/index.php?method=clientconf.firstscreen&__version=1.0.1.1303&__plat=android&__channel=guanwang
 ```
 [Sample output](/jsonsample/firstscreen.json)
 
-###Retrive frontpage'ish channels
+### Retrive frontpage'ish channels
 Returns two lists containing channels data.
 
 adsdata - List with premium/paid channels(?)
@@ -41,7 +41,7 @@ http://static.api.m.panda.tv/android_hd/androidhdindex.json
 ```
 [Sample output](/jsonsample/androidhdindex.json)
 
-###Retrive channels from all categories
+### Retrive channels from all categories
 Returns a list with 10 channels
 
 Field  |Description
@@ -53,7 +53,7 @@ http://static.api.m.panda.tv/android_hd/alllist_.json?pageno=1
 ```
 [Sample output](/jsonsample/alllist_.json)
 
-###Retrive channels from a category
+### Retrive channels from a category
 Returns a list with 10 channels from a category.
 
 Field  |Description
@@ -81,7 +81,7 @@ http://api.m.panda.tv/ajax_get_live_list_by_cate?cate=dota2&pageno=1&pagenum=4&_
 ```
 [Sample output](/jsonsample/ajax_get_live_list_by_cate.json)
 
-###Retrive game categories
+### Retrive game categories
 ```
 http://static.api.m.panda.tv/android_hd/cate.json
 ```
@@ -100,7 +100,7 @@ http://api.m.panda.tv/ajax_get_all_subcate
 ```
 [Sample output](/jsonsample/ajax_get_all_subcate.json)
 
-###Get channel info
+### Get channel info
 Note: Seems like this response breaks the json RFC 4627 format. (At "details")
 
 Field  |Description
@@ -136,7 +136,7 @@ http://room.api.m.panda.tv/index.php?method=room.getinfo&roomid=3331&__plat=andr
 ```
 [Sample output](/jsonsample/getinfo_room.json)
 
-###Get channel follow info
+### Get channel follow info
 Returns 0,1 if you are following the channel and the amount of fans.
 
 Field  |Description
@@ -147,7 +147,7 @@ http://www.panda.tv/room_followinfo?roomid=356213
 ```
 [Sample output](/jsonsample/room_followinfo.json)
 
-###Search on roomid
+### Search on roomid
 Field  |Description
 ----|----
 roomid| Unique id. Same number in the url (eg. panda.tv/3331). Refered as "id" or "roomid" in the responses.
@@ -156,7 +156,7 @@ http://api.m.panda.tv/ajax_search?roomid=3331
 ```
 [Sample output](/jsonsample/ajax_search.json)
 
-###Get account info
+### Get account info
 
 Field  |Description
 ----|----
@@ -170,7 +170,7 @@ http://www.panda.tv/ajax_get_myinfo?option=bamboos%2Cishost%2Cisbanned%2Cexp&roo
 ```
 [Sample output](/jsonsample/ajax_get_myinfo.json)
 
-###Get "giftable" gifts
+### Get "giftable" gifts
 Returns information about purchasable gifts, like prices, types, bamboo etc..
 
 Field  |Description
@@ -182,7 +182,7 @@ http://mall.panda.tv/ajax_gift_gifts_get?roomid=306279
 ```
 [Sample output](/jsonsample/ajax_gift_gifts_get.json)
 
-###Get stream
+### Get stream
 Field  |Description
 ----|----
 plflag| Can be obtained through [the channel info](#get-channel-info)(if for example "2_3" then you are interested in the 3 for stream)
